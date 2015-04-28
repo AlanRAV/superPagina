@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Helping Hand</title>
-    
+
     <script src="js/vendor/modernizr.js"></script>
  
 	
@@ -13,9 +13,15 @@
         <link rel="stylesheet" href="css/foundation.css" />
     <style>
         
+         @media screen and (max-width:480 px){
+    	.estilo {
+    		backgroud-color: 345678;
+    	}
+    }   
+        
      #titulo {
      font-size:100px;
-     color: #781D15;
+     color: #177FB1;
      //text-align:center;
       }
        
@@ -29,21 +35,15 @@
      display: block;
      margin-left: auto;
      margin-right: auto;
-     width:500px; 
-     height:400px
-      display: inline;
-	
-    float: right;
-
-
-
-   
+     width:1000px; 
+     height:900px
+     
      }
         
      img.imagenes2 {
      display: block;
-     margin-left:0px;
-     margin-right: 0px;
+     margin-left: auto;
+     margin-right: auto;
      width:300px; 
      height:300px;
      
@@ -57,16 +57,9 @@
         
      p.estilo{
      font-family: ‘Rokkitt’, serif;
-     font-size: 32px;
+     font-size: 26px;
      color: #212436;    
      }
-     
-      p.estilo1{
-     font-family: ‘Rokkitt’, serif;
-     font-size: 52px;
-     color: #212436;    
-     }
-     
         
      h3.estilo2{
      font-size:32px;
@@ -74,11 +67,11 @@
      }
         
      th.tabla1{
-     font-size:44px;
+     font-size:18px;
      color: #05525C;
      }
      th.tabla2{
-     font-size:44px;
+     font-size:18px;
      color: #F84030;
      }
         
@@ -108,46 +101,20 @@
     
   	<body class="color">
   		
-
-  		 <div class="row">
-              <div class="small-2 large-2 columns">   </div>
+		
+  		
+  		<div class="row">
+              <div class="small-2 large-2 columns">     </div>
                         
-              <div class="small-8 large-8 columns large-offset-3">  <h1 id="titulo"> Who We Are</h1>    </div>
+              <div class="small-8 large-8 columns large-offset-3">  <h1 id="titulo"> Stories</h1>    </div>
                      
               <div class="small-2 large-2 columns">   </div>
               
         </div>
+
+  
+		
         
-
-  		 <div class="row">
-              <div class="small-2 large-2 columns">   </div>
-                        
-              <div class="small-8 large-8 columns large-offset-3"> <center><img src="coollogo_com-103141467.gif"> </center>  </div>
-                     
-              <div class="small-2 large-2 columns">   </div>
-              
-        </div>
-        
-
-
-  		 <div class="row">
-           
-                        
-              <div class=" large-6 columns ">  
-              	<p class="estilo">We are an organization that tries to help the people in need by requesting donations 
-              	to the people that want to help them, we are a non proftiable organization, created by people worried 
-              	about the future of our planet and it`s inhabitants</p> 
-              </div>
-                     
-              <div id="awesomeness" align:right class=" large-6 columns"> <img class="imagenes" src="http://periodismohumano.com/files/2011/03/ancianos-jap%C3%B3n.jpg" > </div>
-              
-        </div>
-        
-
-
-
-
-	
  <script src="js/vendor/jquery.js"></script>
 	 <script src="js/foundation.reveal.js"></script>
     <script src="js/foundation.min.js"></script>
